@@ -1,3 +1,6 @@
+/**
+* Author: Jan Rusakiewicz (jan.rusakiewicz@gmail.com)
+*/
 var KEY_BACK = 8;
 var KEY_DEL = 46;
 
@@ -259,40 +262,3 @@ $(document).ready(function(){
     createJTable($target, getData());
 
 });
-
-/*
-function createElement(getTag, getClass, getContent, getParent){
-    var tag = document.createElement(getTag);
-    $(tag).addClass(""+getClass+"");
-    var content = document.createTextNode(getContent);
-    tag.appendChild(content);
-
-    var parent = document.getElementById(getParent);
-    parent.appendChild(tag);
-}
-
-function showReplacement(className){
-    var data = getData();
-    var contentHtml = "";
-    var $;
-    for(var i = 0; i < data[className].length; i++){
-        var htmlClass = i;
-        contentHtml = data[className][i].lessonNumber;
-        
-        createElement("td",htmlClass,contentHtml,"test");
-        contentHtml = data[className][i].teacher;
-        createElement("td",htmlClass,contentHtml,"test");
-        contentHtml = data[className][i].type;
-        createElement("td",htmlClass,contentHtml,"test");
-        contentHtml = data[className][i].class;
-        createElement("td",htmlClass,contentHtml,"test");
-        contentHtml = data[className][i].date;
-        createElement("td",htmlClass,contentHtml,"test");
-        createElement("br","","","test");
-    }    
-}*/
-
-/*$(document).ready(function(){
-    document.getElementById("zast").classList.add("tableActive");
-    document.getElementById("loading").classList.add("inactive");
-});*/
