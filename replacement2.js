@@ -127,7 +127,7 @@ function JCell (data) {
 }
 
 /**
- * Gets data from table
+ * Gets data from table (You must personalize this function)
  * @returns {{rows: Array, headers: string[]}}
  */
 function getData () {
